@@ -2,6 +2,7 @@
 import 'package:clist/models/Contest.dart';
 import 'package:clist/services/api_services.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() {
   runApp(MyApp());
@@ -39,14 +40,6 @@ class _MyAppState extends State<MyApp> {
   //   super.initState();
   // }
 
-  Contest c = Contest(
-      id: 'id',
-      event: 'event',
-      host: 'host',
-      start: 'start',
-      end: 'end',
-      link: 'link');
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -63,13 +56,13 @@ class _MyAppState extends State<MyApp> {
                   future: Api().getContests(),
                   builder: (context, AsyncSnapshot snapshot) {
                     if (snapshot.hasData) {
-                      return Expanded(
+                      return SizedBox(
+                        width: MediaQuery.of(context).size.width * 0.6,
+                        height: MediaQuery.of(context).size.height * 0.9,
                         child: ListView.builder(
                           itemCount: snapshot.data.length,
                           itemBuilder: (context, index) {
                             Contest contest = snapshot.data[index];
-                            contest.event=contest.event.length>25?contest.event.substring(0,20)+"...":contest.event;
-                            contest.host=contest.host.length>21?contest.host.substring(0,20)+"...":contest.host; 
                             return ConCard(contest: contest);
                           },
                         ),
@@ -83,7 +76,7 @@ class _MyAppState extends State<MyApp> {
       ),
     );
   }
-} 
+}
 
 class ConCard extends StatelessWidget {
   Contest contest;
@@ -98,7 +91,8 @@ class ConCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(20),
           color: Theme.of(context).secondaryHeaderColor,
         ),
-        width: double.infinity,
+        // width: double.infinity,
+        // width: MediaQuery.of(context).size.width*0.5,
         margin: EdgeInsets.all(15),
         padding: EdgeInsets.all(10),
         child: Column(
@@ -108,7 +102,11 @@ class ConCard extends StatelessWidget {
                 alignment: Alignment.center,
                 child: Text(
                   contest.host,
-                  style: TextStyle(fontSize: 12*32/(contest.host.length)>32?32:12*32/(contest.host.length), fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                      fontSize: 12 * 32 / (contest.host.length) > 32
+                          ? 32
+                          : 12 * 32 / (contest.host.length),
+                      fontWeight: FontWeight.bold),
                 )),
             SizedBox(
               height: 15,
@@ -116,7 +114,10 @@ class ConCard extends StatelessWidget {
             Align(
               child: Text(
                 contest.event,
-                style: TextStyle(fontSize: 20*24/(contest.event.length)>25?24:20*24/(contest.event.length)),
+                style: TextStyle(
+                    fontSize: 20 * 24 / (contest.event.length) > 25
+                        ? 24
+                        : 20 * 24 / (contest.event.length)),
               ),
             ),
             SizedBox(
@@ -125,15 +126,28 @@ class ConCard extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(contest.start,style: TextStyle(fontSize: 20),), 
+                Text(
+                  contest.start,
+                  style: TextStyle(fontSize: 20),
+                ),
                 SizedBox(
                   width: 10,
                 ),
-                Text(contest.end,style: TextStyle(fontSize: 20))
+                Text(contest.end, style: TextStyle(fontSize: 20))
               ],
             ),
-            SizedBox(height: 10,),
-            Align(child: ElevatedButton(onPressed: (){}, child: Text('Set Reminder'),style: ElevatedButton.styleFrom(primary: Theme.of(context).primaryColor),)) 
+            SizedBox(
+              height: 10,
+            ),
+            Align(
+                child: ElevatedButton(
+              onPressed: () async{
+                await launchUrl(Uri.parse(contest.link));
+              },
+              child: Text('Visit Page'),
+              style: ElevatedButton.styleFrom(
+                  primary: Theme.of(context).primaryColor),
+            ))
           ],
         ),
       ),

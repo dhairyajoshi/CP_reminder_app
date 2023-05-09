@@ -1,0 +1,174 @@
+-- Merging decision tree log ---
+application
+INJECTED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:3:4-33:19
+MERGED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-26:19
+MERGED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-26:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\joshi\.gradle\caches\transforms-3\cbbd95a71c37efdfc64418cb4f36b641\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\joshi\.gradle\caches\transforms-3\cbbd95a71c37efdfc64418cb4f36b641\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\joshi\.gradle\caches\transforms-3\309b8dbc22a31fe7f29d30f2574d24a9\transformed\jetified-threetenabp-1.2.3\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\joshi\.gradle\caches\transforms-3\309b8dbc22a31fe7f29d30f2574d24a9\transformed\jetified-threetenabp-1.2.3\AndroidManifest.xml:7:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\joshi\.gradle\caches\transforms-3\c4a0a4d3a61ffcb4c0191c556281b7d7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\joshi\.gradle\caches\transforms-3\c4a0a4d3a61ffcb4c0191c556281b7d7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\joshi\.gradle\caches\transforms-3\cbbd95a71c37efdfc64418cb4f36b641\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml
+manifest
+ADDED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:1:1-34:12
+MERGED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:1:1-34:12
+MERGED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-28:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1e48c36cc1386eba497f263583d951c\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.media:media:1.1.0] C:\Users\joshi\.gradle\caches\transforms-3\f7b2b47904a979ad467c74d4c2cefc34\transformed\media-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\joshi\.gradle\caches\transforms-3\35208c822658f9d5fd5c2574692e8797\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\024f89f7b0bcb5a4b2183104954f719e\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\e5d2ac27c225a50a81edb9290b620e4d\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\1dcef7e7016d3b474f46eb4f0f88e6b6\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\c87eedc8b80b35e4c1a334aa46b5f6b0\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\joshi\.gradle\caches\transforms-3\cbbd95a71c37efdfc64418cb4f36b641\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\joshi\.gradle\caches\transforms-3\309b8dbc22a31fe7f29d30f2574d24a9\transformed\jetified-threetenabp-1.2.3\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\joshi\.gradle\caches\transforms-3\e9a703b8857465e37a63eab678ef1594\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\2c2fc70b196697f0dba79ddee96f1773\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\joshi\.gradle\caches\transforms-3\484b1229f9982b67741b13dba8a8235c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\joshi\.gradle\caches\transforms-3\b3cd8ba02370bf05ff9ede33e6eb8bb6\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\6548f5e4fecc3f9c29cbac7e68c206ba\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\joshi\.gradle\caches\transforms-3\c4a0a4d3a61ffcb4c0191c556281b7d7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\joshi\.gradle\caches\transforms-3\47c5cb8f35e1c4010762d180a216f989\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\joshi\.gradle\caches\transforms-3\538823edf509251805806ff77bc316d3\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\joshi\.gradle\caches\transforms-3\c558688bf1e47ba80aae06c9377dce3a\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\Programming\Android\clist\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\Programming\Android\clist\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\Programming\Android\clist\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:2:5-32
+		INJECTED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Programming\Android\clist\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from D:\Programming\Android\clist\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from D:\Programming\Android\clist\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml
+MERGED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1e48c36cc1386eba497f263583d951c\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1e48c36cc1386eba497f263583d951c\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] C:\Users\joshi\.gradle\caches\transforms-3\f7b2b47904a979ad467c74d4c2cefc34\transformed\media-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] C:\Users\joshi\.gradle\caches\transforms-3\f7b2b47904a979ad467c74d4c2cefc34\transformed\media-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\joshi\.gradle\caches\transforms-3\35208c822658f9d5fd5c2574692e8797\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\joshi\.gradle\caches\transforms-3\35208c822658f9d5fd5c2574692e8797\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\024f89f7b0bcb5a4b2183104954f719e\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\024f89f7b0bcb5a4b2183104954f719e\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\e5d2ac27c225a50a81edb9290b620e4d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\e5d2ac27c225a50a81edb9290b620e4d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\1dcef7e7016d3b474f46eb4f0f88e6b6\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\1dcef7e7016d3b474f46eb4f0f88e6b6\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\c87eedc8b80b35e4c1a334aa46b5f6b0\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\c87eedc8b80b35e4c1a334aa46b5f6b0\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\joshi\.gradle\caches\transforms-3\cbbd95a71c37efdfc64418cb4f36b641\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\joshi\.gradle\caches\transforms-3\cbbd95a71c37efdfc64418cb4f36b641\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\joshi\.gradle\caches\transforms-3\309b8dbc22a31fe7f29d30f2574d24a9\transformed\jetified-threetenabp-1.2.3\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\joshi\.gradle\caches\transforms-3\309b8dbc22a31fe7f29d30f2574d24a9\transformed\jetified-threetenabp-1.2.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\joshi\.gradle\caches\transforms-3\e9a703b8857465e37a63eab678ef1594\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\joshi\.gradle\caches\transforms-3\e9a703b8857465e37a63eab678ef1594\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\2c2fc70b196697f0dba79ddee96f1773\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\2c2fc70b196697f0dba79ddee96f1773\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\joshi\.gradle\caches\transforms-3\484b1229f9982b67741b13dba8a8235c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\joshi\.gradle\caches\transforms-3\484b1229f9982b67741b13dba8a8235c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\joshi\.gradle\caches\transforms-3\b3cd8ba02370bf05ff9ede33e6eb8bb6\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\joshi\.gradle\caches\transforms-3\b3cd8ba02370bf05ff9ede33e6eb8bb6\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\6548f5e4fecc3f9c29cbac7e68c206ba\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\joshi\.gradle\caches\transforms-3\6548f5e4fecc3f9c29cbac7e68c206ba\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\joshi\.gradle\caches\transforms-3\c4a0a4d3a61ffcb4c0191c556281b7d7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\joshi\.gradle\caches\transforms-3\c4a0a4d3a61ffcb4c0191c556281b7d7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\joshi\.gradle\caches\transforms-3\47c5cb8f35e1c4010762d180a216f989\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\joshi\.gradle\caches\transforms-3\47c5cb8f35e1c4010762d180a216f989\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\joshi\.gradle\caches\transforms-3\538823edf509251805806ff77bc316d3\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\joshi\.gradle\caches\transforms-3\538823edf509251805806ff77bc316d3\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\joshi\.gradle\caches\transforms-3\c558688bf1e47ba80aae06c9377dce3a\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\joshi\.gradle\caches\transforms-3\c558688bf1e47ba80aae06c9377dce3a\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\Programming\Android\clist\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\Programming\Android\clist\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Programming\Android\clist\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Programming\Android\clist\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\Programming\Android\clist\android\app\src\debug\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from D:\Programming\Android\clist\android\app\src\debug\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-63
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-76
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-15:40
+	android:exported
+		ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-97
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-25:20
+	android:exported
+		ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-24:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-79
+	android:name
+		ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:25-79
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51

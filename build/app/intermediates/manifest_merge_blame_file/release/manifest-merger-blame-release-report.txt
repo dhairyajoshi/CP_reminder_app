@@ -1,0 +1,133 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.clist"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:7:5-81
+12-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:8:5-66
+13-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:8:22-63
+14    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+14-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:5-81
+14-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+15-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:10:5-79
+15-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:10:22-76
+16
+17    <application
+18        android:name="android.app.Application"
+18-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:6:9-42
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.6.0] C:\Users\joshi\.gradle\caches\transforms-3\cbbd95a71c37efdfc64418cb4f36b641\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:7:9-43
+21        android:label="clist" >
+21-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:5:9-30
+22        <activity
+22-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:8:9-28:20
+23            android:name="com.example.clist.MainActivity"
+23-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:9:13-41
+24            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+24-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:13:13-163
+25            android:exported="true"
+25-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:10:13-36
+26            android:hardwareAccelerated="true"
+26-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:14:13-47
+27            android:launchMode="singleTop"
+27-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:11:13-43
+28            android:theme="@style/LaunchTheme"
+28-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:12:13-47
+29            android:windowSoftInputMode="adjustResize" >
+29-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:15:13-55
+30
+31            <!--
+32                 Specifies an Android theme to apply to this Activity as soon as
+33                 the Android process has started. This theme is visible to the user
+34                 while the Flutter UI initializes. After that, this theme continues
+35                 to determine the Window background behind the Flutter UI.
+36            -->
+37            <meta-data
+37-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:20:13-23:17
+38                android:name="io.flutter.embedding.android.NormalTheme"
+38-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:21:15-70
+39                android:resource="@style/NormalTheme" />
+39-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:22:15-52
+40
+41            <intent-filter>
+41-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:24:13-27:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:25:17-68
+42-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:25:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:26:17-76
+44-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:26:27-74
+45            </intent-filter>
+46        </activity>
+47        <!--
+48             Don't delete the meta-data below.
+49             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+50        -->
+51        <meta-data
+51-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:31:9-33:33
+52            android:name="flutterEmbedding"
+52-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:32:13-44
+53            android:value="2" />
+53-->D:\Programming\Android\clist\android\app\src\main\AndroidManifest.xml:33:13-30
+54
+55        <receiver
+55-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:13:9-15:40
+56            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+56-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:14:13-97
+57            android:exported="false" />
+57-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:15:13-37
+58        <receiver
+58-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:16:9-25:20
+59            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+59-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:17:13-101
+60            android:exported="false" >
+60-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:18:13-37
+61            <intent-filter>
+61-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:19:13-24:29
+62                <action android:name="android.intent.action.BOOT_COMPLETED" />
+62-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:20:17-79
+62-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:20:25-76
+63                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+63-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:21:17-84
+63-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:21:25-81
+64                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+64-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:22:17-82
+64-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:22:25-79
+65                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+65-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:23:17-82
+65-->[:flutter_local_notifications] D:\Programming\Android\clist\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:23:25-79
+66            </intent-filter>
+67        </receiver>
+68
+69        <uses-library
+69-->[androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+70            android:name="androidx.window.extensions"
+70-->[androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+71            android:required="false" />
+71-->[androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+72        <uses-library
+72-->[androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+73            android:name="androidx.window.sidecar"
+73-->[androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+74            android:required="false" />
+74-->[androidx.window:window:1.0.0-beta04] C:\Users\joshi\.gradle\caches\transforms-3\e1122a04ff3f2e301327facd1abb25ea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+75    </application>
+76
+77</manifest>
